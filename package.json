@@ -1,0 +1,24 @@
+{
+  "name": "api_christmas-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"    
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Sofia Iliasova kuzpugonka",
+  "license": "ISC",
+  "description": "API для управления продуктами и заказами",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-validator": "^6.14.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "express-async-errors": "^3.1.1"
+  }
+}
